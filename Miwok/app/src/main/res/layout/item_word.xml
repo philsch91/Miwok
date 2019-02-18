@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:padding="10px">
+    <ImageView
+        android:id="@+id/ivImage"
+        android:contentDescription="Image for the Word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <!--android:layout_weight="0.2"-->
+        <!--android:scaleType="fitStart"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:layout_gravity="left" -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <!--android:gravity="center" -->
+        <!--android:layout_toRightOf="@id/ivImage" -->
+        <TextView
+            android:id="@+id/tvMiwok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+            <!--android:layout_weight="1"-->
+        <TextView
+            android:id="@+id/tvEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="normal" />
+            <!--android:layout_weight="1"-->
+
+    </LinearLayout>
+</LinearLayout>
